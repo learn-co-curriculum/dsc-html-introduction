@@ -1,10 +1,6 @@
 tags:
-  - html
-languages:
-  - html
-resources: 0tags:
-- jupyter
-- python
+  - jupyter
+  - python
 
 languages: python
 
