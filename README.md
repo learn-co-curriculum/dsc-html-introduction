@@ -6,7 +6,7 @@
 HTML, or HyperText Markup Language, is a markup language which describes the
 structure and semantic meaning of web pages. Web browsers, such as Mozilla
 Firefox, Internet Explorer, and Google Chrome interpret the HTML code and use
-it to render output. Unlike Ruby, JavaScript and other programming languages,
+it to render output. Unlike Python, JavaScript and other programming languages,
 markup languages like HTML don't have any logic behind them. Instead, they
 simply surround the content to convey structure and meaning.
 
@@ -26,14 +26,14 @@ You will be able to:
 <p>Hello World</p>
 ```
 
-Elements, like our `p` tags above, won't be displayed in the browser. Instead,
+Elements, like the `p` tags above, won't be displayed in the browser. Instead,
 they affect how the content itself is displayed. Technologists might say that
 the tags "affect how the content is rendered by the browser."
 
-We can also alter any number of attributes inside of the opening tags. For
+You can also alter any number of attributes inside of the opening tags. For
 example, the `a` element, which is used for links, has an `href` attribute to
-specify the destination address of the link. If we wanted to link to
-www.flatironschool.com, we could do so as follows:
+specify the destination address of the link. If you wanted to link to
+www.flatironschool.com, you could do so as follows:
 
 ```html
 <a href="http://www.flatironschool.com">Flatiron School</a>
@@ -43,7 +43,7 @@ This would render as:
 
 [Flatiron School](http://www.flatironschool.com)
 
-We can also nest elements inside of each other. To have a link displayed as a
+You can also nest elements inside of each other. To have a link displayed as a
 separate paragraph, we could nest an `a` element inside of a `p`.
 
 ```html
@@ -52,16 +52,16 @@ separate paragraph, we could nest an `a` element inside of a `p`.
 
 ## Basic HTML Document Structure
 
-All HTML documents begin with a "doctype declaration" tag, which tells our web
+All HTML documents begin with a "doctype declaration" tag, which tells the web
 browser which version of HTML to use. HTML is a language that is currently
-evolving &mdash; just like English. When we open "Romeo and Juliet," our
+evolving &mdash; just like English. When you open a novel such as "Romeo and Juliet," your
 expectation is that the "doctype" is "Elizabethan English." In the same way
 "Elizabethan English" has changed to a more modern form, HTML 1.0 was
-_essentially_ the same as modern HTML5 but had some tags we don't use any more
-and was lacking some tags we use often today.
+_essentially_ the same as modern HTML5 but had some tags that are no longer used
+and was lacking some tags often used today.
 
-Since it's not wrapping any content, our doctype declaration doesn't require a
-closing tag. To use HTML5, the current up-to-date version, we can simply
+Since it's not wrapping any content, the doctype declaration doesn't require a
+closing tag. To use HTML5, the current up-to-date version, you can simply
 declare `<!DOCTYPE html>`.
 
 ```html
@@ -69,7 +69,7 @@ declare `<!DOCTYPE html>`.
 
 ```
 
-Next, we add an opening and closing `html` tag. This tells the web browser to
+Next, you add an opening and closing `html` tag. This tells the web browser to
 interpret everything inside the tags as HTML code.
 
 ```html
@@ -112,7 +112,7 @@ notes for the author.
 
 ## Common HTML Elements
 
-We've already looked at some common HTML elements, such as `a` and `p`. Let's
+You've already looked at some common HTML elements, such as `a` and `p`. Let's
 take a look at some more HTML elements.
 
 ## Headers
@@ -128,14 +128,14 @@ with `h1` being the largest and `h6` being the smallest.
 ```
 
 In addition to changing how the text is displayed, search engines use headers
-to help determine what a web page is about. Remember, as Avi pointed out, when
-we provide _semantic_ markup, machines can infer the "main points" of a page. A
+to help determine what a web page is about. Remember when
+you provide _semantic_ markup, machines can infer the "main points" of a page. A
 well structured article will generally have its principal arguments bracketed
 by low-number header tags -- this very document does exactly that!
 
 ## Images
 
-We can embed images on our web pages using the `img` element. The `img` element
+You can embed images on our web pages using the `img` element. The `img` element
 doesn't have a closing tag. The `src` attribute tells the browser where to find
 the image. The `alt` attribute will be displayed if an image can't be loaded,
 and also describes the image to search engines.
@@ -146,15 +146,15 @@ technologies because you have a sight impairment, it's helpful to know what's
 being displayed. If you're in a remote community where internet access is
 expensive, you might choose to disable images and only pay to download those
 which you _absolutely need_. So while an `img` will inject an image and "work,"
-honoring the Web's vision for openness and inclusivity requires that we provide
+honoring the Web's vision for openness and inclusivity requires that you provide
 the `alt` tag as well.
 
 `<img src="URL_TO_IMAGE" alt="Picture of a Dog">`
 
 ## Lists
 
-Some other useful HTML elements are lists. We can make bulleted, or unordered
-lists, using opening and closing `ul` tags. Inside, we can nest an `li`, or
+Some other useful HTML elements are lists. You can make bulleted, or unordered
+lists, using opening and closing `ul` tags. Inside, you can nest an `li`, or
 "list item" element for each item on our list.
 
 ```html
@@ -178,7 +178,7 @@ ____
 </ul>
 ____
 
-We can also make a numbered, or ordered list, using an `ol` tag.
+You can also make a numbered, or ordered list, using an `ol` tag.
 
 ```html
 <h5>Top 5 Pizza Places in NYC</h5>
