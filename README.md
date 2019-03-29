@@ -106,7 +106,7 @@ document.  These won't get rendered to the browser at all: they're just helpful
 notes for the author.
 
 ```html
-<!-- NYC Pizza is world-famous, cheap, and loved by both vermin and human like! -->
+<!-- NYC Pizza is world-famous, cheap, and loved by both vermin and human-like! -->
 <p>Top 5 Pizza Places in NYC</p>
 ```
 
@@ -154,7 +154,7 @@ the `alt` tag as well.
 ## Lists
 
 Some other useful HTML elements are lists. You can make bulleted, or unordered
-lists, using opening and closing `ul` tags. Inside, you can nest an `li`, or
+lists, using opening and closing `ul` tags. Inside, you can nest a `li`, or
 "list item" element for each item on our list.
 
 ```html
