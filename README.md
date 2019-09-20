@@ -3,7 +3,7 @@
 
 ## Introduction
 
-HTML, or HyperText Markup Language, is a markup language which describes the
+HTML, or HyperText Markup Language, is a markup language that describes the
 structure and semantic meaning of web pages. Web browsers, such as Mozilla
 Firefox, Internet Explorer, and Google Chrome interpret the HTML code and use
 it to render output. Unlike Python, JavaScript and other programming languages,
@@ -208,3 +208,8 @@ ____
 
 
 Welcome to the world of the web! In this lesson, you learned about HTML and how web pages are structured.
+
+
+```python
+
+```
