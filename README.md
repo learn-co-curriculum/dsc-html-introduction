@@ -11,24 +11,26 @@ markup languages like HTML don't have any logic behind them. Instead, they
 simply surround the content to convey structure and meaning.
 
 Every web page you've ever visited is structured using HTML code. Being able to
-read and understand an HTML document is one of the most essential tools in a
-developer's toolbox.
+read and understand an HTML document is an incredibly useful tool in a
+data scientist's toolbox.
+
 
 ## Objectives
 You will be able to:
 * Explain what HTML is and why it's important in the context of web development
-* Read a basic HTML document
-* Write basic HTML tags
+* Compare and contrast HTML tags
+* Create an HTML document with appropriate tags
 
 ## HTML Syntax
+
+HTML makes use of **tags** which are interpreted by web browsers to affect how content is displayed. The `p` tag to define a paragraph is shown below:
 
 ```html
 <p>Hello World</p>
 ```
 
-Elements, like the `p` tags above, won't be displayed in the browser. Instead,
-they affect how the content itself is displayed. Technologists might say that
-the tags "affect how the content is rendered by the browser."
+Elements, like the `p` tags above, won't be displayed in the browser. Technologists might say that
+the tags "affect how the content is rendered by the browser." 
 
 You can also alter any number of attributes inside of the opening tags. For
 example, the `a` element, which is used for links, has an `href` attribute to
@@ -140,8 +142,8 @@ doesn't have a closing tag. The `src` attribute tells the browser where to find
 the image. The `alt` attribute will be displayed if an image can't be loaded,
 and also describes the image to search engines.
 
-The `alt` tag presents a moment to talk about an important principle behind Tim
-Berners-Lee's vision for the Web: it is _inclusive_. If you're using assistive
+The `alt` tag presents a moment to talk about an important principle behind [Tim
+Berners-Lee's vision for the Web](https://webfoundation.org/about/vision/history-of-the-web/): it is _inclusive_. If you're using assistive
 technologies because you have a sight impairment, it's helpful to know what's
 being displayed. If you're in a remote community where internet access is
 expensive, you might choose to disable images and only pay to download those
@@ -207,9 +209,4 @@ ____
 ## Summary
 
 
-Welcome to the world of the web! In this lesson, you learned about HTML and how web pages are structured.
-
-
-```python
-
-```
+Welcome to the world of the web! In this lesson, you learned about HTML, why it's important in web development, and how web pages are structured. You also compared and contrasted a few common HTML tags as well as saw how tags can be used to construct HTML documents.
