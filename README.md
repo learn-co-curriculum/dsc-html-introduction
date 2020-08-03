@@ -17,9 +17,10 @@ data scientist's toolbox.
 
 ## Objectives
 You will be able to:
-* Explain what HTML is and why it's important in the context of web development
-* Compare and contrast HTML tags
-* Create an HTML document with appropriate tags
+
+- Explain what HTML is and why it's important in the context of web development
+- Compare and contrast HTML tags
+- Create an HTML document with appropriate tags
 
 ## HTML Syntax
 
