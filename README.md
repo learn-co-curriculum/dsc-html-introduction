@@ -1,4 +1,3 @@
-
 # HTML Introduction
 
 ## Introduction
@@ -152,7 +151,7 @@ which you _absolutely need_. So while an `img` will inject an image and "work,"
 honoring the Web's vision for openness and inclusivity requires that you provide
 the `alt` tag as well.
 
-`<img src="URL_TO_IMAGE" alt="Picture of a Dog">`
+`<img src="" alt="Picture of a Dog">`
 
 ## Lists
 
